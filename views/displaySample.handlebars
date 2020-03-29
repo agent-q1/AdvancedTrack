@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<script>
+var a = [];
+</script>
+<html>
+        <style>
+                img {
+                  max-width: 1653px;
+                  max-height: 2337px;
+                  
+                }
+                </style>
+<body>
+    <img src= {{image}} alt="Italian Trulli" >
+    <script>
+        window.addEventListener('mousedown',e=>{
+            var para = document.getElementById('yes');
+                var x = e.pageX;
+                var y = e.pageY;
+                para.innerHTML = para.innerHTML+x.toString(10)+' '+y.toString(10)+' ';      
+         });
+    </script>
+    
+   
+
+    <p id = 'yes'></p>
+
+    <form action = "/process_get" method = "GET">
+      Co-ordinates: <input type = "text" name ="coordinates" id ="pointdata" value =""><br>
+      <input type = "submit" value = "Submit data">
+  </form>
+
+  <button id ="but2" onclick ="myFunction1()">I have marked all the boxes</button> 
+  <script>
+    function myFunction1(){
+      document.getElementById("pointdata").value= document.getElementById('yes').innerHTML;
+    }
+  </script>
+
+</body>
+</html>

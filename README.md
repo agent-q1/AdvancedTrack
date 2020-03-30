@@ -1,4 +1,4 @@
-# AdvancedTrack
+# Grade-It!
 
 ESC 101 project undertaken during Fall Semester 2019 at IITK.
 

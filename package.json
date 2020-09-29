@@ -1,0 +1,24 @@
+{
+  "name": "advancedtrack",
+  "version": "1.0.0",
+  "description": "Project to autograde answer scripts",
+  "main": "applet.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agent-q1/AdvancedTrack.git"
+  },
+  "author": "Suhas, Rohan Baijal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agent-q1/AdvancedTrack/issues"
+  },
+  "homepage": "https://github.com/agent-q1/AdvancedTrack#readme"
+}

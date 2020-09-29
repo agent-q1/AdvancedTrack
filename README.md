@@ -11,7 +11,7 @@ npm>=6
 
 ## OpenCV
 We first process the images before sending them into our ML model. We smoothen the image using *Gaussian Blur* to remove noise so that our *Sobel Operators* can detect edges well. Used *Canny Edge Detection* to identify the bounding boxes around the written text. 
-
+![Pre-processing Images](./images/OpenCVT.png)
 
 ## TensorFlow
 We used *adam* as our optimizer to train our deep learning model. We used a sparse categorical cross-entropy loss function since our classes were mutually exclusive. We used the EMNIST Dataset to train our models, (including some local samples) to train our model and were able to achieve an accuracy of upto *98%*

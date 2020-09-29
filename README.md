@@ -30,8 +30,8 @@ We used *adam* as our optimizer to train our deep learning model. We used a spar
 In order to serve as an interface to upload answer sheets as well as view marks, we created a website using nodejs. We used express to handle our routes for the server and Express Handlebars as a templating engine.
 
 ![Home Page](./images/HomePage.jpg)
-<div align="center"><em>Home Page</em></div>
+<div align="left"><em>Home Page</em></div>
 
 ![Results Page](./images/ResultPage.png)
-<div align="center"><em>Results Page</em></div>
+<div align="left"><em>Results Page</em></div>
 
